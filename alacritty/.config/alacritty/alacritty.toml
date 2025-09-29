@@ -1,0 +1,38 @@
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+# vi_mode_style = { shape = "Block", blinking = "Always" }
+blink_timeout = 0
+
+[font]
+size = 13.0
+
+[font.normal]
+# family = "DejaVuSansM Nerd Font" 
+# family = "Ubuntu Mono" 
+# family = "Hack Nerd Font" 
+# family = "Andale Mono"  
+family = "SF Mono" 
+# family = "Liberation Mono" 
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+
+[window]
+# opacity = 0.95
+# decorations = "Buttonless"
+padding = { x = 15, y = 15 }
+dimensions = { columns = 135, lines = 50 }
+decorations_theme_variant = "Dark"
+
+title = ""
+dynamic_title = false
+
+[general]
+import = ["~/.config/alacritty/pie.toml"]
+# import = ["~/.config/alacritty/happy_hacking.toml"]
+
+[terminal]

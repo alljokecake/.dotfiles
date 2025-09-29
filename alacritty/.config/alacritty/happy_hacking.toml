@@ -1,0 +1,50 @@
+# Happy Hacking inspired Alacritty theme
+# Based on https://github.com/yorickpeterse/happy_hacking.vim
+
+[colors.primary]
+background = "#242424" # s:gray1
+foreground = "#F3F2CC" # s:white
+
+[colors.cursor]
+text = "#000000"
+cursor = "#9e9b9b" # slightly softened for better visibility
+
+[colors.normal]
+black   = "#000000" # s:black1
+red     = "#F05E48" # s:red
+green   = "#8daf67" # s:green
+yellow  = "#FAD566" # s:yellow
+blue    = "#81A2C7" # s:blue
+magenta = "#F77EBD" # s:pink
+cyan    = "#FAA166" # s:orange
+white   = "#F3F2CC" # s:white
+
+[colors.bright]
+black   = "#202020" # s:black2
+red     = "#F05E48" # same as normal red
+green   = "#8daf67" # same as normal green
+yellow  = "#FAD566" # same as normal yellow
+blue    = "#81A2C7" # same as normal blue
+magenta = "#FAA166" # s:orange
+cyan    = "#B3EBBF" # same as normal cyan
+white   = "#ffffff"
+
+[colors.selection]
+text       = "#000000"
+background = "#FAD566"
+
+[colors.search]
+matches = { foreground = "#000000", background = "#FAD566" }
+focused_match = { foreground = "#000000", background = "#FAA166" }
+
+[colors.vi_mode_cursor]
+text = "#000000"
+cursor = "#81A2C7"
+
+[colors.line_indicator]
+foreground = "#F3F2CC"
+background = "#525252"
+
+[colors.footer_bar]
+foreground = "#000000"
+background = "#FAD566"
