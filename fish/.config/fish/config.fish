@@ -19,3 +19,6 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # based
 alias vim "nvim"
 alias vi /usr/bin/vim
+
+# REMOVEME
+alias mypy "mypy --strict"

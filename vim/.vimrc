@@ -1,6 +1,5 @@
 syntax on
 colorscheme habamax
-" colorscheme desert
 
 highlight Normal ctermbg=NONE guibg=NONE
 highlight NormalFloat ctermbg=NONE guibg=NONE
