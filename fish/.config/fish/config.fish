@@ -22,3 +22,17 @@ alias vi /usr/bin/vim
 
 # REMOVEME
 alias mypy "mypy --strict"
+
+if status is-interactive
+# don't nest inside another tmux
+and not set -q TMUX
+  # Adapted from https://unix.stackexchange.com/a/176885/347104
+  # Create session 'genesis' or attach to 'genesis' if already exists.
+  tmux new-session -A -s genesis
+end
+
+# FZF
+export FZF_DEFAULT_OPTS="
+    --layout=reverse
+    --border
+"
