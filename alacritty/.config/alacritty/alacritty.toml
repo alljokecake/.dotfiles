@@ -4,15 +4,14 @@ style = { shape = "Block", blinking = "Always" }
 blink_timeout = 0
 
 [font]
-# size = 13
-size = 14.5
+size = 16.5
 
 [font.normal]
-family = "DejaVuSansM Nerd Font"
+# family = "DejaVuSansM Nerd Font"
 # family = "Ubuntu Mono" 
-# family = "Hack Nerd Font" 
+family = "Hack Nerd Font" 
 # family = "Andale Mono"  
-# family = "SF Mono"
+# family = "SF Mono"
 # family = "Liberation Mono" 
 style = "Regular"
 
@@ -23,7 +22,7 @@ hide_when_typing = true
 program = "/opt/homebrew/bin/fish"
 
 [window]
-# opacity = 0.95
+# opacity = 0.95
 # decorations = "Buttonless"
 padding = { x = 15, y = 15 }
 dimensions = { columns = 135, lines = 50 }
@@ -35,5 +34,6 @@ dynamic_title = false
 [general]
 import = ["~/.config/alacritty/pie.toml"]
 # import = ["~/.config/alacritty/happy_hacking.toml"]
+# import = ["~/.config/alacritty/gruvbox.toml"]
 
 [terminal]

@@ -1,0 +1,27 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap gg\nunmap go\nmap go scrollToTop",
+  "linkHintCharacters": "aoeuidtnscpyglbjk",
+  "settingsVersion": "2.3.1",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://www.typing.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://learn.dvorak.nl/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://colemakcamp.github.io/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://config.qmk.fm/*"
+    }
+  ]
+}

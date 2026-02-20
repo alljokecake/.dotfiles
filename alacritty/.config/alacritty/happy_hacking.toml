@@ -9,6 +9,7 @@ foreground = "#F3F2CC" # s:white
 text = "#000000"
 cursor = "#9e9b9b" # slightly softened for better visibility
 
+
 [colors.normal]
 black   = "#000000" # s:black1
 red     = "#F05E48" # s:red
